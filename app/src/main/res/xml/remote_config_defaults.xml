@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>holiday_promo_title</key>
+        <value>⛩ Juste pour vous une promo de rêve!</value>
+    </entry>
+    <entry>
+        <key>holiday_promo_button</key>
+        <value>Je fonce !</value>
+    </entry>
+    <entry>
+        <key>holiday_promo_enabled</key>
+        <value>true</value>
+    </entry>
+</defaultsMap>
