@@ -15,6 +15,9 @@ object RemoteConfigurationService {
     val getHolidayPromoButton
         get() = firebaseRemoteConfiguration.getString("holiday_promo_button")
 
+    val getHolidayPromoLink
+        get() = firebaseRemoteConfiguration.getString("holiday_promo_link")
+
     val getHolidayPromoEnabled
         get() = firebaseRemoteConfiguration.getBoolean("holiday_promo_enabled")
 
