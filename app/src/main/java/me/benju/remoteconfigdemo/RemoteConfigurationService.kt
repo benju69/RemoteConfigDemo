@@ -5,6 +5,7 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 import java.util.concurrent.TimeUnit
 
+// Simple wrapper pour Firebase remote config
 object RemoteConfigurationService {
 
     private val firebaseRemoteConfiguration = FirebaseRemoteConfig.getInstance()
@@ -22,6 +23,7 @@ object RemoteConfigurationService {
         get() = firebaseRemoteConfiguration.getBoolean("holiday_promo_enabled")
 
     //getDouble
+    //getLong
 
     init {
         var cacheInterval = TimeUnit.HOURS.toSeconds(2L)
